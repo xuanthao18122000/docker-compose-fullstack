@@ -1,0 +1,1 @@
+import{c3 as a,c4 as o}from"./index-f34e1a2a.js";const r="posts-categories/type",p={getList:e=>a.get(r,{params:{type:e}})},c=e=>o({queryKey:["posts","categories"],queryFn:()=>p.getList(e),select:t=>t.data.map(s=>({value:s.id,label:s.name}))});export{c as u};
