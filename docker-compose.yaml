@@ -15,3 +15,10 @@ services:
       POSTGRES_DB: nest-boilerplate
     ports:
       - "5434:5432"
+  nginx:
+    build: nginx/.
+    ports:
+      - "81:80"
+    # links:
+    #   - frontend
+    #   - backend
