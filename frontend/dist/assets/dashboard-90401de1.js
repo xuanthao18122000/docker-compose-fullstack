@@ -1,1 +1,0 @@
-import{a as r,T as a}from"./index-f34e1a2a.js";import{B as o}from"./breadcrumbs-wrapper-ec233fdf.js";const t=()=>r(o,{breadcrumbs:[{title:"Dashboard"}],children:r(a,{children:"Chưa đủ dữ liệu cho các bảng thống kê"})});export{t as default};

@@ -19,6 +19,6 @@ services:
     build: nginx/.
     ports:
       - "81:80"
-    # links:
-    #   - frontend
-    #   - backend
+    links: # được sử dụng để xác định các kết nối từ dịch vụ nginx đến các dịch vụ frontend và backend.
+      - frontend
+      - backend
